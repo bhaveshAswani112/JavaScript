@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive Image Gallery</title>
+</head>
+<body>
+  <div class="gallery-container">
+    <div class="thumbnail-container">
+        <div class="img-info">
+            <img src="images/thumbnail1.jpg" alt="Image 1" onclick="openLightbox('image1.jpg')">
+            <h3>HTML certificate</h3>
+        </div>
+        <div class="img-info">
+            <img src="images/thumbnail2.jpg" alt="Image 2" onclick="openLightbox('image2.jpg')">
+            <h3>CSS certificate</h3>
+        </div>
+        <div class="img-info">
+            <img src="images/thumbnail4.jpg" alt="Image 2" onclick="openLightbox('image4.jpg')">
+            <h3>JS certificate</h3>
+        </div>
+        <div class="img-info">
+            <img src="images/thumbnail3.jpg" alt="Image 1" onclick="openLightbox('image3.jpg')">
+            <h3>LeetCode Achievement</h3>
+        </div>
+      
+      
+      
+      
+      <!-- <img src="thumbnail3.jpg" alt="Image 3" onclick="openLightbox('image3.jpg')"> -->
+      <!-- Add more thumbnails as needed -->
+    </div>
+    
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+      <!-- <img id="lightbox-image" class="lightbox-content" src="images/image1.jpg" alt="Lightbox Image"> -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

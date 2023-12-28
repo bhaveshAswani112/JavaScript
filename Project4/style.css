@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .todo-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  #delete {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 8px;
+  }
+  .date{
+    margin-left: 6px;
+    background-color: #4caf50;
+    border: 1px solid black;
+    border-radius: 6px;
+  }
+  .txt{
+    flex-grow: 1;
+  }
